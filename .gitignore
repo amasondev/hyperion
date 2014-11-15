@@ -1,3 +1,8 @@
 [Bb]inaries/
 [Ss]aved/
 [Ii]ntermediate/
+
+# Visual Studio stuff
+*.suo
+*.sdf
+*.opensdf
