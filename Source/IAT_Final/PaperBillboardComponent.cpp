@@ -2,13 +2,11 @@
 
 #include "IAT_Final.h"
 #include "PaperBillboardComponent.h"
-#include "UnrealEd.h"
-#include "EditorViewportClient.h"
 
 UPaperBillboardComponent::UPaperBillboardComponent(const class FPostConstructInitializeProperties& PCIP)
 	: Super(PCIP)
 {
-	
+	bTickInEditor = true;
 }
 
 
@@ -16,26 +14,18 @@ void UPaperBillboardComponent::TickFacing(float DeltaTime)
 {
 	if (GEngine)
 	{
-		FRotator playerRotation;
 		// Get Camera rotation
-		if (!GIsEditor || GEditor->GetPIEViewport())
+		if (GEngine->GetFirstLocalPlayerController(GetWorld()))
 		{
+			FRotator playerRotation;
 			playerRotation = GEngine->GetFirstLocalPlayerController(GetWorld())->PlayerCameraManager->GetCameraRotation();
-		}
-		else {
-			//playerRotation = GEditor->LevelViewportClients[2]->GetViewRotation();
-			FLevelEditorViewportClient* client = (FLevelEditorViewportClient*)GEditor->GetActiveViewport()->GetClient();
-			if (client)
-			{
-				playerRotation = client->GetViewRotation();
-			}
-		}
 
-		playerRotation.Pitch = 0;
-		playerRotation.Yaw += 90;
+			playerRotation.Pitch = 0;
+			playerRotation.Yaw += 90;
 
-		// Set sprite rotation
-		SetWorldRotation(playerRotation);
+			// Set sprite rotation
+			SetWorldRotation(playerRotation);
+		}
 	}
 }
 

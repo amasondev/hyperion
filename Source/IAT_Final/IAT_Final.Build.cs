@@ -6,7 +6,7 @@ public class IAT_Final : ModuleRules
 {
 	public IAT_Final(TargetInfo Target)
 	{
-		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "Paper2D", "UnrealEd" });
+		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "Paper2D"});
 
 		PrivateDependencyModuleNames.AddRange(new string[] {  });
 
