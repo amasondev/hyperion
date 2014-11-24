@@ -1,0 +1,38 @@
+1 - Meeting Room
+I am one of you humans... Listen, I am on your side, I can save you.
+--> [ Y / N ]
+Y: Yes, just trust me, I will help you. Go through the purple door, it will lead to the exit.
+N: Come on, listen to me. Just trust me, I can help you. Go through the (red) door.
+
+
+
+PATH A [Y]
+2A
+The key to the door is in one of the vaults. They're boobytrapped, but no matter what, just get the key and get through the door. Remember, I'm helping you get out.
+3A
+Ignore all that nonsense on the wall. Don't worry about it, just get through the door, I'll save you.
+4A
+...I said I can help you, and I will - by taking your lives. That way, I can become stronger, and your suffering here will end. Isn't that great?
+
+ED1: Victory (clears boss)
+You will regret this... you will regret this... [screen shakes, fades out]
+
+ED2: Defeat (everyone dies before boss is cleared)
+It would've been easier if you just surrendered, your fate remains the same. [fades out]
+
+
+
+PATH B [N]
+2B
+I am telling you, the exit is through the (red) door, the (red) door!
+[if players decide to return to 1, the text for path A can remain the same. it's worded so that it's cross-dimensional. but, if players go back and forth between rooms, don't keep switching the text (?)]
+3B
+THROUGH THE (RED) DOOR!
+4B
+You will pay the price for defying me!
+
+ED1: Victory (shuts down terminal)
+[screen immediately blacks out] You've escaped once, but there won't be a second time...
+
+ED2: Defeat (everyone dies before terminal is shut down)
+This is what you get for going against me... [screen fades out]

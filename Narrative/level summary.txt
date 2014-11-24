@@ -1,0 +1,134 @@
+==============================================
+
+
+1ST LEVEL: Intro
+(can teach mechanics in here?)
+
+#0: 2 exits (to puzzle and combat route), both with switches to them
+	- combat route's exit has a pic of the Mini Boss to indicate the upcoming enemy
+
+---------------------------------------------------------------------
+[Puzzle Route]
+
+#1: 3x3 switchboard on the floor [*]
+	- step on 1 block = switches colour (switch to either black or white)
+	- solution to puzzle on the wall
+	[*] deactivates Spawn Point 1 in the Combat Route
+
+#2: 3 visible doors; 3 switches (but the switches do not correspond to the door)
+	- Switch A: opens latch from above to expose enemies
+	- Switch B: opens door at the opposite end (north) to expose enemies
+	- Switch C: opens door at the opposite end (east) to expose Key Y + pots
+	- "Z" Door (south): opens up to next room, but locked with passcode
+		- passcode obtainable by defeating Mini Boss (picture shown as hint)
+		- 3 tries only
+
+#3: troll room; a vault (or something) in the center that says "do not break" 
+	- if broken, will expose enemies
+	- players can just go through door to next room
+
+#4: colour room; must dye the colour prism with the dyes to the correct colour to pass
+	- hint to what is the correct colour given on the wall
+	- dyes can be used infinitely
+	- if colour prism is dyed incorrectly, then a door opens up with enemies unleashed
+
+#5: red carpet room; "carpet" changes colour
+	- can only walk on carpet if green (or some other safe colour)
+	- if players are on the carpet while it's not green, enemies unleashed from the side
+	- side door locked with Key Y (obtained from #2), unlocks room with Key A + weapons
+
+---------------------------------------------------------------------
+[Combat Route]
+
+Horde 1: Once open switch to the door for Combat Route, enemies unleashed
+Flamethrower (or other weapon) available at the side after horde 1
+
+Horde 2: Spawn Point 1 is visible further down from this horde
+
+Horde 3: Spawn Point 2 is visible further down from this horde
+Mini Boss is located here; drops solution passcode for "Z" Door
+
+Horde 4: Located past Mini Boss and before Spawn Point 3
+
+Line of HP: pots in a row for players
+- hidden switch located in front of the HP line
+	- if activated, drops Key X and unleashes enemies from above
+
+Key X: opens up side door, reveals Key B + weapons
+
+==============================================
+
+
+2ND LEVEL: "Captain"
+
+1. Meeting Room: 2 doors, both requires Key A + Key B
+	- Text starts to appear here, from a "Captain" (refer to "2nd level voice text.txt")
+	- Captain is actually an alien (or something like that) who claims to be able to help
+	- players can either choose to listen to Captain's advice or not
+	- if players use Key A+B on one of the doors, can still open the other door without the keys
+		- a player unlocks the other door by "click and hold", while enemies start coming
+
+---------------------------------------------------------------------
+PATH A: follow Captain's advice
+
+2A. 3 Vaults, 1 Key: key to open door is in 1 of 3 vaults (2 are enemies)
+	- Text will tell players the above to break vaults for key
+	- HP available in room also
+	(possibly have a weapon in one of the vaults)
+
+3A. Dummy Room: shows clues that something is fishy
+	- broken door, warning signs, etc.
+	(since door is broken, can just directly pass through)
+
+4A. Final Room 1 - Boss Fight: revealed that the Captain is evil
+	- must defeat the boss; enemy rush (small flow) also starts
+	- door leading back is sealed shut (can't go back)
+	- HP lined all around room
+	- 2 secret walls with weapons (must shoot the walls down)
+
+Ending 1: Victory - defeat boss
+	- Boss dies, players escape successfully
+	- screen fades to black
+
+Ending 2: Defeat - all players died before boss is killled
+	- Boss "eats" the players
+	- screen fades to black
+
+---------------------------------------------------------------------
+PATH B: disregard Captain
+
+2A. Deactivate Enemy Door (like a Spawn Point)
+	- switch to deactivate door at side; must "click and hold" for x-seconds
+	(possibly drop weapon when deactivated successfully)
+	- door to next room is not locked
+
+3A. Dummy Room: 2 doors (one of them red, leads to "4A. Final Room 1 - Boss Fight")
+	- Captain gives final warning to player to go through red door
+	- HP lined at the side
+	(to correspond with Path A, since it also has a Dummy Room)
+	- other door leads to Control Room (not locked, can pass through)
+
+4A. Control Room: players must repair the control room to regain access to terminal
+	- repair = click and hold again (?)
+	- Captain threatens players, unleashes huge & endless enemy rush
+	- door leading back is sealed shut (can't go back)
+	- HP and weapons drop from ceiling (?)
+	- once finished repairing, prompt to shut down terminal [Y]
+		- if [N], can go back to terminal to get the prompt again and choose [Y]
+
+Ending 3: Victory - terminal fixed + shut down successfully
+	- screen immediately blacks out
+	- Captain gives one last threat
+
+Ending 4: Defeat - all players died before terminal gets fixed + shut down
+	- Captain scorns the players' efforts
+	- screen fades to black
+
+
+
+
+
+
+
+
+
