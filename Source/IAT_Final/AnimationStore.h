@@ -46,7 +46,7 @@ public:
 				index++;
 			}
 		}
-
+		index %= Sprites.Num();
 		switch (Facing)
 		{
 		case ESpriteFacing::Forward:
