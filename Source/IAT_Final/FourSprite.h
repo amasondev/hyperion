@@ -12,15 +12,13 @@ USTRUCT()
 struct FFourSprite
 {
 	GENERATED_USTRUCT_BODY()
-private:
+public:
 	UPROPERTY(EditAnywhere, Category = Sprites)
 		FText Name;
 	UPROPERTY(EditAnywhere, Category = Sprites)
 		UPaperFlipbook *forward;
 	UPROPERTY(EditAnywhere, Category = Sprites)
 		UPaperFlipbook *left;
-	UPROPERTY(EditAnywhere, Category = Sprites)
-		UPaperFlipbook *right;
 	UPROPERTY(EditAnywhere, Category = Sprites)
 		UPaperFlipbook *back;
 };
